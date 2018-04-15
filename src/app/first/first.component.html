@@ -1,0 +1,12 @@
+<p>
+  first-component works!<br>
+  and here you are {{hero.id}}
+  and name is {{hero.name | uppercase}}
+  <input [(ngModel)]="hero.name" placeholder="Enter to change value">
+<ul>
+  <li *ngFor="let value of array" (click)="selected(value)">
+    {{value.id}} {{value.name}}
+  </li>
+</ul>
+<app-detail [received] = "selectedHero"></app-detail>
+<app-message></app-message>

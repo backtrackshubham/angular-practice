@@ -9,7 +9,7 @@ import {
 
 declare const require: any;
 
-// First, initialize the Angular testing environment.
+// first, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting()
